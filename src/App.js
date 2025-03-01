@@ -1,13 +1,24 @@
-
+import { Row, Container, Col } from "react-bootstrap";
 import './App.css'
-import Navbar from './components/navbar'
+import Navigationbar from './components/navbar'
+import './style/landing.css'
 
 
 function App() {
   return (
     <div>
-      <h1>Yogi Nugraha</h1>
-      <Navbar />
+      {/*intro section  */}
+      <div className='myBG border'>
+      <Navigationbar />
+      <div>
+        <Container className="text-white d-flex justify-content-center align-items-center border">
+          <Row>
+            <Col>TESTING</Col>
+          </Row>
+        </Container>
+      </div>
+      </div>
+      {/* end intro section */}
     </div>
   );
 }
