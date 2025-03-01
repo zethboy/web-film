@@ -1,6 +1,8 @@
-import { Row, Container, Col } from "react-bootstrap";
+
 import './App.css'
 import Navigationbar from './components/navbar'
+import Intro from './components/intro'
+import Top from './components/top'
 import './style/landing.css'
 
 
@@ -10,15 +12,16 @@ function App() {
       {/*intro section  */}
       <div className='myBG border'>
       <Navigationbar />
-      <div>
-        <Container className="text-white d-flex justify-content-center align-items-center border">
-          <Row>
-            <Col>TESTING</Col>
-          </Row>
-        </Container>
-      </div>
+      <Intro />
+      <Top />
+      
       </div>
       {/* end intro section */}
+      {/* Trending Section */}
+      <div className='Top'>
+
+      </div>
+      {/* End Trending Section */}
     </div>
   );
 }
