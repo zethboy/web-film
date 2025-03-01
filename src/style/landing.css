@@ -15,5 +15,16 @@
   line-height: 1;
   text-shadow: 2px 2px black;
   letter-spacing: 4px;
+}
 
+.top{
+  height: 100vh;
+  background : url("../assets/img/bg/spiderman.jpg");
+  background-size: cover;
+}
+
+.movieImg {
+  width : 200px;
+  height : 200px;
+  
 }

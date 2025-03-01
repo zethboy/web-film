@@ -13,13 +13,12 @@ function App() {
       <div className='myBG border'>
       <Navigationbar />
       <Intro />
-      <Top />
       
       </div>
       {/* end intro section */}
       {/* Trending Section */}
-      <div className='Top'>
-
+      <div className='top'>
+      <Top />
       </div>
       {/* End Trending Section */}
     </div>
