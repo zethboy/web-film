@@ -18,13 +18,15 @@
 }
 
 .top{
-  height: 100vh;
-  background : url("../assets/img/bg/spiderman.jpg");
+  height: auto;
+  background : url("../assets/img/bg/scifi.jpg");
   background-size: cover;
 }
 
 .movieImg {
-  width : 200px;
-  height : 200px;
-  
+  height : auto;
+}
+
+.movieWrap {
+
 }
