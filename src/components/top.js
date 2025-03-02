@@ -9,10 +9,13 @@ const Top = () => {
   return(
     <div>
       <Container>
+        <br />
+        <h1 className='text-white' id='top'>TRENDING MOVIES</h1>
+        <br />
         <Row>
           <Col md={4} className='movieWrap'>
             <Card className="bg-dark text-white movieImg p-2 m-1">
-              <Image src={cocoImg} alt="coco image"/>
+              <Image src={cocoImg} alt="coco image" className='topImage'/>
                 <Card.Title className='text-center'>COCO</Card.Title>
                   <Card.Text className='text-left'>
                     This is a wider card with supporting text below as a natural lead-in
@@ -23,7 +26,7 @@ const Top = () => {
           </Col>
           <Col md={4} className='movieWrap'>
             <Card className="bg-dark text-white movieImg p-2 m-1">
-              <Image src={doraImg} alt="dora image"/>
+              <Image src={doraImg} alt="dora image" className='topImage'/>
                 <Card.Title className='text-center'>DORA AND THE LOST CITY OF GOLD</Card.Title>
                   <Card.Text className='text-left'>
                     This is a wider card with supporting text below as a natural lead-in
@@ -34,8 +37,8 @@ const Top = () => {
           </Col>
           <Col md={4} className='movieWrap'>
             <Card className="bg-dark text-white movieImg p-2 m-1">
-              <Image src={homeImg} alt="home image"/>
-                <Card.Title className='text-center'>HOME ALONE</Card.Title>
+              <Image src={homeImg} alt="home image" className='topImage' />
+              <Card.Title className='text-center'>HOME ALONE</Card.Title>
                   <Card.Text className='text-left'>
                     This is a wider card with supporting text below as a natural lead-in
                     to additional content.
@@ -45,7 +48,7 @@ const Top = () => {
           </Col>
           <Col md={4} className='movieWrap'>
             <Card className="bg-dark text-white movieImg p-2 m-1">
-              <Image src={insideImg} alt="inside image"/>
+              <Image src={insideImg} alt="inside image" className='topImage'/>
                 <Card.Title className='text-center'>INSIDE OUT 2</Card.Title>
                   <Card.Text className='text-left'>
                     This is a wider card with supporting text below as a natural lead-in
@@ -56,7 +59,7 @@ const Top = () => {
           </Col>
           <Col md={4} className='movieWrap'>
             <Card className="bg-dark text-white movieImg p-2 m-1">
-              <Image src={interImg} alt="inter image"/>
+              <Image src={interImg} alt="inter image" className='topImage'/> 
                 <Card.Title className='text-center'>INTERSTELLAR</Card.Title>
                   <Card.Text className='text-left'>
                     This is a wider card with supporting text below as a natural lead-in
@@ -67,7 +70,7 @@ const Top = () => {
           </Col>
           <Col md={4} className='movieWrap'>
             <Card className="bg-dark text-white movieImg p-2 m-1">
-              <Image src={titanicImg} alt="titanic image"/>
+              <Image src={titanicImg} alt="titanic image" className='topImage'/>
                 <Card.Title className='text-center'>TITANIC</Card.Title>
                   <Card.Text className='text-left'>
                     This is a wider card with supporting text below as a natural lead-in

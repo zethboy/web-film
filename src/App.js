@@ -3,6 +3,7 @@ import './App.css'
 import Navigationbar from './components/navbar'
 import Intro from './components/intro'
 import Top from './components/top'
+import Anime from './components/anime'
 import './style/landing.css'
 
 
@@ -21,6 +22,11 @@ function App() {
       <Top />
       </div>
       {/* End Trending Section */}
+      {/* Anime section */}
+      <div className='anime'>
+        <Anime />
+      </div>
+      {/* End Anime section */}
     </div>
   );
 }

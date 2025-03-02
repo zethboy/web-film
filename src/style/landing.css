@@ -23,6 +23,10 @@
   background-size: cover;
 }
 
+.movieWrap{
+
+}
+
 .movieImg {
   height : auto;
   background-color: black;
@@ -30,7 +34,12 @@
   padding: 5px;
 }
 
+.topImage{
+  height: 500px;
+}
 
-.movieWrap {
-
+.anime{
+  height: auto;
+  background : url("../assets/img/bg/car.jpg");
+  background-size: cover;
 }
